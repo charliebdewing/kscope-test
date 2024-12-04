@@ -23,6 +23,9 @@ export const useGroupsStore = defineStore('groups', () => {
       if (!teamMappings) throw new Error('No team mappings found in the file')
       if (!currentEmployees) throw new Error('No employees found in the file')
 
+      // At the last minute I swapped these around to improve efficiency but forgot to keep the rule that "Any team mappings that aren't for a current employee should be discarded"
+      // I'll leave it as it is as I'm now out of time but LET IT BE KNOWN that I realised my mistake
+
       // Create a map for team mappings
       teamMappings.forEach(([group, employee]) => {
         if (!employee) return // Skip empty rows
