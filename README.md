@@ -1,5 +1,22 @@
 # kaleidoscope application
 
+Some notes I made before starting dev (I also drew some diagrams):
+
+Priorites:
+- Testing
+- Smooth dnd
+- Get all the optionals done
+- Clean file upload
+- Handle file edge cases
+- Show some CHOICE state work
+- Typescript best practices
+- Lots of documentation - Err on the side of over-documenting
+- CHECK README BUILD STEPS ON FRESH MACHINE
+
+CONSIDER: This isn't a real app - this is an opportunity to show off your skills.
+
+What would happen with 30000+ users? (Answer: It chugs.)
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
